@@ -1,0 +1,19 @@
+# SDTurbo4SeedInterpolationMethod
+
+Method for interpolating between multiple seeds. Slerp provides smoother transitions than linear.
+
+## Example Usage
+
+```typescript
+import { SDTurbo4SeedInterpolationMethod } from "daydream-sdk/models";
+
+let value: SDTurbo4SeedInterpolationMethod = "slerp";
+```
+
+## Values
+
+This is an open enum. Unrecognized values will be captured as the `Unrecognized<string>` branded type.
+
+```typescript
+"linear" | "slerp" | Unrecognized<string>
+```

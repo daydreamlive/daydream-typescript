@@ -1,0 +1,24 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    Daydream API Documentation:
+        inputs:
+            - location: ../pipelines/apps/api/openapi/openapi.public.json
+        overlays:
+            - location: .speakeasy/speakeasy-modifications-overlay.yaml
+        output: .speakeasy/out.openapi.yaml
+        registry:
+            location: registry.speakeasyapi.dev/livepeer/livepeer/daydream-api-documentation
+targets:
+    daydream:
+        target: typescript
+        source: Daydream API Documentation
+        publish:
+            npm:
+                token: $npm_token
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/livepeer/livepeer/daydream-api-documentation-typescript-code-samples
+            labelOverride:
+                fixedValue: Typescript (SDK)
+            blocking: false

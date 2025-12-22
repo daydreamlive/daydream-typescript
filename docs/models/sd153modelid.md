@@ -1,0 +1,19 @@
+# Sd153ModelId
+
+Model to use for generation
+
+## Example Usage
+
+```typescript
+import { Sd153ModelId } from "daydream-sdk/models";
+
+let value: Sd153ModelId = "prompthero/openjourney-v4";
+```
+
+## Values
+
+This is an open enum. Unrecognized values will be captured as the `Unrecognized<string>` branded type.
+
+```typescript
+"Lykon/dreamshaper-8" | "prompthero/openjourney-v4" | Unrecognized<string>
+```

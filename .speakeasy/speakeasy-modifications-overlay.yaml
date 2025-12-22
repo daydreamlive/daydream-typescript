@@ -1,0 +1,64 @@
+overlay: 1.0.0
+x-speakeasy-jsonpath: rfc9535
+info:
+  title: Speakeasy Modifications
+  version: 0.0.2
+  x-speakeasy-metadata:
+    after: ""
+    before: ""
+    type: speakeasy-modifications
+actions:
+  - target: $["paths"]["/v1/streams/{id}"]["patch"]
+    update:
+      x-speakeasy-name-override: update
+    x-speakeasy-metadata:
+      after: sdk.streams.update()
+      before: sdk.Streams.updateStream()
+      created_at: 1766383907288
+      reviewed_at: 1766383918828
+      type: method-name
+  - target: $["paths"]["/v1/streams/{id}"]["get"]
+    update:
+      x-speakeasy-name-override: getById
+    x-speakeasy-metadata:
+      after: sdk.streams.getById()
+      before: sdk.Streams.getStreamById()
+      created_at: 1766383907288
+      reviewed_at: 1766383918828
+      type: method-name
+  - target: $["paths"]["/v1/streams/{id}/status"]["get"]
+    update:
+      x-speakeasy-name-override: getStatus
+    x-speakeasy-metadata:
+      after: sdk.streams.getStatus()
+      before: sdk.Streams.getStreamStatus()
+      created_at: 1766383907288
+      reviewed_at: 1766383918828
+      type: method-name
+  - target: $["paths"]["/v1/streams"]["post"]
+    update:
+      x-speakeasy-name-override: create
+    x-speakeasy-metadata:
+      after: sdk.streams.create()
+      before: sdk.Streams.createStream()
+      created_at: 1766383907288
+      reviewed_at: 1766383918828
+      type: method-name
+  - target: $["paths"]["/v1/streams"]["get"]
+    update:
+      x-speakeasy-name-override: getAll
+    x-speakeasy-metadata:
+      after: sdk.streams.getAll()
+      before: sdk.Streams.getAllStreams()
+      created_at: 1766383907288
+      reviewed_at: 1766383918828
+      type: method-name
+  - target: $["paths"]["/v1/streams"]["delete"]
+    update:
+      x-speakeasy-name-override: delete
+    x-speakeasy-metadata:
+      after: sdk.streams.delete()
+      before: sdk.Streams.deleteStream()
+      created_at: 1766383907288
+      reviewed_at: 1766383918828
+      type: method-name
