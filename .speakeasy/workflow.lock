@@ -14,7 +14,7 @@ targets:
         sourceRevisionDigest: sha256:0c325ad81711bb3ef456d6070dc45c1873f3c70ef803dce1c4fcf1c2436cba61
         sourceBlobDigest: sha256:2469f7652480ab160bb0586ce3236b4ca94cc47ccb0ed01435c38b9cc4cb38fb
         codeSamplesNamespace: daydream-api-documentation-typescript-code-samples
-        codeSamplesRevisionDigest: sha256:e669e2ea90e9709537a970d335a91a74347ea617d29dbc97739bcd1b9900a780
+        codeSamplesRevisionDigest: sha256:39547096161b73c92e568ee48318e60fc9f5c8e9688dff2383c9672e876ccd7d
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
