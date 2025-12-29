@@ -5,7 +5,7 @@ Default Response
 ## Example Usage
 
 ```typescript
-import { UnauthorizedError } from "daydream-sdk/models/errors";
+import { UnauthorizedError } from "@daydreamlive/sdk/models/errors";
 
 // No examples available for this model
 ```

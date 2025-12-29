@@ -18,7 +18,7 @@ Creates a new video processing stream with the specified configuration
 
 <!-- UsageSnippet language="typescript" operationID="createStream" method="post" path="/v1/streams" -->
 ```typescript
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const daydream = new Daydream({
   bearer: process.env["DAYDREAM_BEARER"] ?? "",
@@ -43,8 +43,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { DaydreamCore } from "daydream-sdk/core.js";
-import { streamsCreate } from "daydream-sdk/funcs/streamsCreate.js";
+import { DaydreamCore } from "@daydreamlive/sdk/core.js";
+import { streamsCreate } from "@daydreamlive/sdk/funcs/streamsCreate.js";
 
 // Use `DaydreamCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -104,7 +104,7 @@ Retrieves all streams belonging to the authenticated user
 
 <!-- UsageSnippet language="typescript" operationID="getAllStreams" method="get" path="/v1/streams" -->
 ```typescript
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const daydream = new Daydream({
   bearer: process.env["DAYDREAM_BEARER"] ?? "",
@@ -124,8 +124,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { DaydreamCore } from "daydream-sdk/core.js";
-import { streamsGetAll } from "daydream-sdk/funcs/streamsGetAll.js";
+import { DaydreamCore } from "@daydreamlive/sdk/core.js";
+import { streamsGetAll } from "@daydreamlive/sdk/funcs/streamsGetAll.js";
 
 // Use `DaydreamCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -180,7 +180,7 @@ Deletes a specific stream by ID for the authenticated user
 
 <!-- UsageSnippet language="typescript" operationID="deleteStream" method="delete" path="/v1/streams" -->
 ```typescript
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const daydream = new Daydream({
   bearer: process.env["DAYDREAM_BEARER"] ?? "",
@@ -202,8 +202,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { DaydreamCore } from "daydream-sdk/core.js";
-import { streamsDelete } from "daydream-sdk/funcs/streamsDelete.js";
+import { DaydreamCore } from "@daydreamlive/sdk/core.js";
+import { streamsDelete } from "@daydreamlive/sdk/funcs/streamsDelete.js";
 
 // Use `DaydreamCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -260,7 +260,7 @@ Updates pipeline parameters for a specific stream by ID for the authenticated us
 
 <!-- UsageSnippet language="typescript" operationID="updateStream" method="patch" path="/v1/streams/{id}" -->
 ```typescript
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const daydream = new Daydream({
   bearer: process.env["DAYDREAM_BEARER"] ?? "",
@@ -288,8 +288,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { DaydreamCore } from "daydream-sdk/core.js";
-import { streamsUpdate } from "daydream-sdk/funcs/streamsUpdate.js";
+import { DaydreamCore } from "@daydreamlive/sdk/core.js";
+import { streamsUpdate } from "@daydreamlive/sdk/funcs/streamsUpdate.js";
 
 // Use `DaydreamCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -352,7 +352,7 @@ Retrieves a specific stream by its ID. Users can only access their own streams u
 
 <!-- UsageSnippet language="typescript" operationID="getStreamById" method="get" path="/v1/streams/{id}" -->
 ```typescript
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const daydream = new Daydream({
   bearer: process.env["DAYDREAM_BEARER"] ?? "",
@@ -374,8 +374,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { DaydreamCore } from "daydream-sdk/core.js";
-import { streamsGetById } from "daydream-sdk/funcs/streamsGetById.js";
+import { DaydreamCore } from "@daydreamlive/sdk/core.js";
+import { streamsGetById } from "@daydreamlive/sdk/funcs/streamsGetById.js";
 
 // Use `DaydreamCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.

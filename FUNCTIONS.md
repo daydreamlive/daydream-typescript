@@ -19,8 +19,8 @@ specific category of applications.
 ## Example
 
 ```typescript
-import { DaydreamCore } from "daydream-sdk/core.js";
-import { streamsCreate } from "daydream-sdk/funcs/streamsCreate.js";
+import { DaydreamCore } from "@daydreamlive/sdk/core.js";
+import { streamsCreate } from "@daydreamlive/sdk/funcs/streamsCreate.js";
 
 // Use `DaydreamCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.

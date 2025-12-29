@@ -5,7 +5,7 @@ Default Response
 ## Example Usage
 
 ```typescript
-import { InternalServerError } from "daydream-sdk/models/errors";
+import { InternalServerError } from "@daydreamlive/sdk/models/errors";
 
 // No examples available for this model
 ```

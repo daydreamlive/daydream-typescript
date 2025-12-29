@@ -5,7 +5,7 @@ List of image preprocessor configurations for image processing
 ## Example Usage
 
 ```typescript
-import { Sdxl4ImagePreprocessing } from "daydream-sdk/models";
+import { Sdxl4ImagePreprocessing } from "@daydreamlive/sdk/models";
 
 let value: Sdxl4ImagePreprocessing = {
   processors: [

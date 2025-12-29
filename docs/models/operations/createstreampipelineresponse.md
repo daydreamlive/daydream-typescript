@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { CreateStreamPipelineResponse } from "daydream-sdk/models/operations";
+import { CreateStreamPipelineResponse } from "@daydreamlive/sdk/models/operations";
 
 let value: CreateStreamPipelineResponse = "streamdiffusion";
 ```

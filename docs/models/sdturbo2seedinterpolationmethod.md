@@ -5,7 +5,7 @@ Method for interpolating between multiple seeds. Slerp provides smoother transit
 ## Example Usage
 
 ```typescript
-import { SDTurbo2SeedInterpolationMethod } from "daydream-sdk/models";
+import { SDTurbo2SeedInterpolationMethod } from "@daydreamlive/sdk/models";
 
 let value: SDTurbo2SeedInterpolationMethod = "linear";
 ```

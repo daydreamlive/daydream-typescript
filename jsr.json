@@ -1,7 +1,7 @@
 
 
 {
-  "name": "daydream-sdk",
+  "name": "@daydreamlive/sdk",
   "version": "0.1.0",
   "exports": {
     ".": "./src/index.ts",    

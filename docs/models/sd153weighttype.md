@@ -5,7 +5,7 @@ Weight interpolation method for IP adapter style conditioning. Controls how the 
 ## Example Usage
 
 ```typescript
-import { Sd153WeightType } from "daydream-sdk/models";
+import { Sd153WeightType } from "@daydreamlive/sdk/models";
 
 let value: Sd153WeightType = "weak output";
 ```

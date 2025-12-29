@@ -5,7 +5,7 @@ Preprocessor to apply to input frames before feeding to the ControlNet. Must be 
 ## Example Usage
 
 ```typescript
-import { SDTurbo1Preprocessor } from "daydream-sdk/models";
+import { SDTurbo1Preprocessor } from "@daydreamlive/sdk/models";
 
 let value: SDTurbo1Preprocessor = "standard_lineart";
 ```

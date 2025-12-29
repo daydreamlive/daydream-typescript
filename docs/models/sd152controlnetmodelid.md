@@ -5,7 +5,7 @@
 ## Example Usage
 
 ```typescript
-import { Sd152ControlnetModelId } from "daydream-sdk/models";
+import { Sd152ControlnetModelId } from "@daydreamlive/sdk/models";
 
 let value: Sd152ControlnetModelId =
   "daydreamlive/TemporalNet2-stable-diffusion-v1-5";

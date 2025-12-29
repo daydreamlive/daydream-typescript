@@ -5,7 +5,7 @@ Default Response
 ## Example Usage
 
 ```typescript
-import { NotFoundError } from "daydream-sdk/models/errors";
+import { NotFoundError } from "@daydreamlive/sdk/models/errors";
 
 // No examples available for this model
 ```

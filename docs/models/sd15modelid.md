@@ -5,7 +5,7 @@ Model to use for generation
 ## Example Usage
 
 ```typescript
-import { Sd15ModelId } from "daydream-sdk/models";
+import { Sd15ModelId } from "@daydreamlive/sdk/models";
 
 let value: Sd15ModelId = "Lykon/dreamshaper-8";
 ```

@@ -7,7 +7,7 @@ List of image postprocessor configurations for image processing
 ## Example Usage
 
 ```typescript
-import { SDTurboImagePostprocessing } from "daydream-sdk/models";
+import { SDTurboImagePostprocessing } from "@daydreamlive/sdk/models";
 
 let value: SDTurboImagePostprocessing = {
   processors: [],

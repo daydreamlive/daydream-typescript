@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { GetStreamByIdPipeline } from "daydream-sdk/models/operations";
+import { GetStreamByIdPipeline } from "@daydreamlive/sdk/models/operations";
 
 let value: GetStreamByIdPipeline = "streamdiffusion";
 ```

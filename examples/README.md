@@ -1,6 +1,6 @@
-# daydream-sdk Examples
+# @daydreamlive/sdk Examples
 
-This directory contains example scripts demonstrating how to use the daydream-sdk SDK.
+This directory contains example scripts demonstrating how to use the @daydreamlive/sdk SDK.
 
 ## Prerequisites
 

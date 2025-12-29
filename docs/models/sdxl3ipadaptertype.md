@@ -5,7 +5,7 @@ Type of IP adapter. Use 'faceid' for SDXL-faceid models, 'regular' for others
 ## Example Usage
 
 ```typescript
-import { Sdxl3IpAdapterType } from "daydream-sdk/models";
+import { Sdxl3IpAdapterType } from "@daydreamlive/sdk/models";
 
 let value: Sdxl3IpAdapterType = "regular";
 ```

@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { SDXLLatentPreprocessingType } from "daydream-sdk/models";
+import { SDXLLatentPreprocessingType } from "@daydreamlive/sdk/models";
 
 let value: SDXLLatentPreprocessingType = "latent_feedback";
 ```

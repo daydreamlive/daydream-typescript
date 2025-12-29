@@ -5,7 +5,7 @@ List of latent preprocessor configurations for latent processing
 ## Example Usage
 
 ```typescript
-import { SDTurbo4LatentPreprocessing } from "daydream-sdk/models";
+import { SDTurbo4LatentPreprocessing } from "@daydreamlive/sdk/models";
 
 let value: SDTurbo4LatentPreprocessing = {
   processors: [],

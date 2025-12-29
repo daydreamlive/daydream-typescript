@@ -5,7 +5,7 @@ Default Response
 ## Example Usage
 
 ```typescript
-import { ConflictError } from "daydream-sdk/models/errors";
+import { ConflictError } from "@daydreamlive/sdk/models/errors";
 
 // No examples available for this model
 ```

@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { Sdxl4 } from "daydream-sdk/models";
+import { Sdxl4 } from "@daydreamlive/sdk/models";
 
 let value: Sdxl4 = {
   modelId: "stabilityai/sdxl-turbo",

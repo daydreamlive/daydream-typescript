@@ -5,7 +5,7 @@ List of image preprocessor configurations for image processing
 ## Example Usage
 
 ```typescript
-import { SDTurbo1ImagePreprocessing } from "daydream-sdk/models";
+import { SDTurbo1ImagePreprocessing } from "@daydreamlive/sdk/models";
 
 let value: SDTurbo1ImagePreprocessing = {
   processors: [],

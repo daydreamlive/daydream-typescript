@@ -5,7 +5,7 @@ Default Response
 ## Example Usage
 
 ```typescript
-import { GetAllStreamsResponse } from "daydream-sdk/models/operations";
+import { GetAllStreamsResponse } from "@daydreamlive/sdk/models/operations";
 
 let value: GetAllStreamsResponse = {
   success: false,

@@ -5,7 +5,7 @@ Preprocessor to apply to input frames before feeding to the ControlNet. Must be 
 ## Example Usage
 
 ```typescript
-import { SDXLPreprocessor } from "daydream-sdk/models";
+import { SDXLPreprocessor } from "@daydreamlive/sdk/models";
 
 let value: SDXLPreprocessor = "hed";
 ```

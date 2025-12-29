@@ -7,7 +7,7 @@ List of image postprocessor configurations for image processing
 ## Example Usage
 
 ```typescript
-import { Sdxl2ImagePostprocessing } from "daydream-sdk/models";
+import { Sdxl2ImagePostprocessing } from "@daydreamlive/sdk/models";
 
 let value: Sdxl2ImagePostprocessing = {
   processors: [],

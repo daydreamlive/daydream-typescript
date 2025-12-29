@@ -5,7 +5,7 @@ Default Response
 ## Example Usage
 
 ```typescript
-import { ForbiddenError } from "daydream-sdk/models/errors";
+import { ForbiddenError } from "@daydreamlive/sdk/models/errors";
 
 // No examples available for this model
 ```

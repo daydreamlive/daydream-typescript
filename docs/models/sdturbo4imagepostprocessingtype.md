@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { SDTurbo4ImagePostprocessingType } from "daydream-sdk/models";
+import { SDTurbo4ImagePostprocessingType } from "@daydreamlive/sdk/models";
 
 let value: SDTurbo4ImagePostprocessingType = "mediapipe_segmentation";
 ```

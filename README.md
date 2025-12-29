@@ -45,25 +45,25 @@ The SDK can be installed with either [npm](https://www.npmjs.com/), [pnpm](https
 ### NPM
 
 ```bash
-npm add daydream-sdk
+npm add @daydreamlive/sdk
 ```
 
 ### PNPM
 
 ```bash
-pnpm add daydream-sdk
+pnpm add @daydreamlive/sdk
 ```
 
 ### Bun
 
 ```bash
-bun add daydream-sdk
+bun add @daydreamlive/sdk
 ```
 
 ### Yarn
 
 ```bash
-yarn add daydream-sdk
+yarn add @daydreamlive/sdk
 ```
 
 > [!NOTE]
@@ -82,7 +82,7 @@ For supported JavaScript runtimes, please consult [RUNTIMES.md](RUNTIMES.md).
 ### Example
 
 ```typescript
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const daydream = new Daydream({
   bearer: process.env["DAYDREAM_BEARER"] ?? "",
@@ -117,7 +117,7 @@ This SDK supports the following security scheme globally:
 
 To authenticate with the API the `bearer` parameter must be set when initializing the SDK client instance. For example:
 ```typescript
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const daydream = new Daydream({
   bearer: process.env["DAYDREAM_BEARER"] ?? "",
@@ -200,7 +200,7 @@ Some of the endpoints in this SDK support retries.  If you use the SDK without a
 
 To change the default retry strategy for a single API call, simply provide a retryConfig object to the call:
 ```typescript
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const daydream = new Daydream({
   bearer: process.env["DAYDREAM_BEARER"] ?? "",
@@ -234,7 +234,7 @@ run();
 
 If you'd like to override the default retry strategy for all operations that support retries, you can provide a retryConfig at SDK initialization:
 ```typescript
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const daydream = new Daydream({
   retryConfig: {
@@ -282,8 +282,8 @@ run();
 
 ### Example
 ```typescript
-import { Daydream } from "daydream-sdk";
-import * as errors from "daydream-sdk/models/errors";
+import { Daydream } from "@daydreamlive/sdk";
+import * as errors from "@daydreamlive/sdk/models/errors";
 
 const daydream = new Daydream({
   bearer: process.env["DAYDREAM_BEARER"] ?? "",
@@ -361,7 +361,7 @@ run();
 
 The default server can be overridden globally by passing a URL to the `serverURL: string` optional parameter when initializing the SDK client instance. For example:
 ```typescript
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const daydream = new Daydream({
   serverURL: "https://api.daydream.live",
@@ -402,8 +402,8 @@ custom header and a timeout to requests and how to use the `"requestError"` hook
 to log errors:
 
 ```typescript
-import { Daydream } from "daydream-sdk";
-import { HTTPClient } from "daydream-sdk/lib/http";
+import { Daydream } from "@daydreamlive/sdk";
+import { HTTPClient } from "@daydreamlive/sdk/lib/http";
 
 const httpClient = new HTTPClient({
   // fetcher takes a function that has the same signature as native `fetch`.
@@ -444,7 +444,7 @@ You can pass a logger that matches `console`'s interface as an SDK option.
 > Beware that debug logging will reveal secrets, like API tokens in headers, in log messages printed to a console or files. It's recommended to use this feature only during local development and not in production.
 
 ```typescript
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const sdk = new Daydream({ debugLogger: console });
 ```

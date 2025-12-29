@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { SDTurbo2ImagePostprocessingType } from "daydream-sdk/models";
+import { SDTurbo2ImagePostprocessingType } from "@daydreamlive/sdk/models";
 
 let value: SDTurbo2ImagePostprocessingType = "temporal_net_tensorrt";
 ```

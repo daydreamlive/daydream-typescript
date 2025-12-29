@@ -5,13 +5,13 @@
 import dotenv from "dotenv";
 dotenv.config();
 /**
- * Example usage of the daydream-sdk SDK
+ * Example usage of the @daydreamlive/sdk SDK
  *
  * To run this example from the examples directory:
  * npm run build && npx tsx streamsCreate.example.ts
  */
 
-import { Daydream } from "daydream-sdk";
+import { Daydream } from "@daydreamlive/sdk";
 
 const daydream = new Daydream({
   bearer: process.env["DAYDREAM_BEARER"] ?? "",

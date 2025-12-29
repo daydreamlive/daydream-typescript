@@ -5,7 +5,7 @@ Default Response
 ## Example Usage
 
 ```typescript
-import { DeleteStreamResponse } from "daydream-sdk/models/operations";
+import { DeleteStreamResponse } from "@daydreamlive/sdk/models/operations";
 
 let value: DeleteStreamResponse = {
   success: false,

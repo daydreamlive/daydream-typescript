@@ -76,7 +76,7 @@ typescript:
   moduleFormat: dual
   multipartArrayFormat: standard
   outputModelSuffix: output
-  packageName: daydream-sdk
+  packageName: '@daydreamlive/sdk'
   preApplyUnionDiscriminators: true
   responseFormat: flat
   sseFlatResponse: false

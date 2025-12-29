@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { SDTurbo4ImagePreprocessingProcessor } from "daydream-sdk/models";
+import { SDTurbo4ImagePreprocessingProcessor } from "@daydreamlive/sdk/models";
 
 let value: SDTurbo4ImagePreprocessingProcessor = {
   type: "hed",

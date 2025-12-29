@@ -5,7 +5,7 @@ Empty object confirming successful deletion
 ## Example Usage
 
 ```typescript
-import { Data } from "daydream-sdk/models/operations";
+import { Data } from "@daydreamlive/sdk/models/operations";
 
 let value: Data = {};
 ```

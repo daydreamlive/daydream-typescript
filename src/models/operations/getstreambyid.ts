@@ -56,18 +56,6 @@ export type GetStreamByIdResponse = {
    */
   outputStreamUrl?: string | undefined;
   /**
-   * Deprecated: use `pipeline` instead. ID of the processing pipeline being used
-   *
-   * @deprecated field: This will be removed in a future release, please migrate away from it as soon as possible.
-   */
-  pipelineId?: string | null | undefined;
-  /**
-   * Deprecated: use `params` instead. Current configuration parameters for the stream pipeline
-   *
-   * @deprecated field: This will be removed in a future release, please migrate away from it as soon as possible.
-   */
-  pipelineParams?: { [k: string]: any } | undefined;
-  /**
    * ISO timestamp when the stream was created
    */
   createdAt: string;
@@ -188,8 +176,6 @@ export const GetStreamByIdResponse$inboundSchema: z.ZodMiniType<
     id: types.string(),
     stream_key: types.string(),
     output_stream_url: types.optional(types.string()),
-    pipeline_id: z.optional(z.nullable(types.string())),
-    pipeline_params: types.optional(z.record(z.string(), z.any())),
     created_at: types.string(),
     output_playback_id: types.string(),
     name: types.string(),
@@ -203,8 +189,6 @@ export const GetStreamByIdResponse$inboundSchema: z.ZodMiniType<
     return remap$(v, {
       "stream_key": "streamKey",
       "output_stream_url": "outputStreamUrl",
-      "pipeline_id": "pipelineId",
-      "pipeline_params": "pipelineParams",
       "created_at": "createdAt",
       "output_playback_id": "outputPlaybackId",
       "from_playground": "fromPlayground",

@@ -1,11 +1,11 @@
 {
-  "name": "daydream-sdk",
+  "name": "@daydreamlive/sdk",
   "version": "0.1.0",
   "author": "Speakeasy",
   "type": "module",
   "tshy": {
     "sourceDialects": [
-      "daydream-sdk/source"
+      "@daydreamlive/sdk/source"
     ],
     "exports": {
       ".": "./src/index.ts",
@@ -39,7 +39,7 @@
   "exports": {
     ".": {
       "import": {
-        "daydream-sdk/source": "./src/index.ts",
+        "@daydreamlive/sdk/source": "./src/index.ts",
         "types": "./dist/esm/index.d.ts",
         "default": "./dist/esm/index.js"
       },
@@ -51,7 +51,7 @@
     "./package.json": "./package.json",
     "./types": {
       "import": {
-        "daydream-sdk/source": "./src/types/index.ts",
+        "@daydreamlive/sdk/source": "./src/types/index.ts",
         "types": "./dist/esm/types/index.d.ts",
         "default": "./dist/esm/types/index.js"
       },
@@ -62,7 +62,7 @@
     },
     "./models/errors": {
       "import": {
-        "daydream-sdk/source": "./src/models/errors/index.ts",
+        "@daydreamlive/sdk/source": "./src/models/errors/index.ts",
         "types": "./dist/esm/models/errors/index.d.ts",
         "default": "./dist/esm/models/errors/index.js"
       },
@@ -73,7 +73,7 @@
     },
     "./models": {
       "import": {
-        "daydream-sdk/source": "./src/models/index.ts",
+        "@daydreamlive/sdk/source": "./src/models/index.ts",
         "types": "./dist/esm/models/index.d.ts",
         "default": "./dist/esm/models/index.js"
       },
@@ -84,7 +84,7 @@
     },
     "./models/operations": {
       "import": {
-        "daydream-sdk/source": "./src/models/operations/index.ts",
+        "@daydreamlive/sdk/source": "./src/models/operations/index.ts",
         "types": "./dist/esm/models/operations/index.d.ts",
         "default": "./dist/esm/models/operations/index.js"
       },
@@ -95,7 +95,7 @@
     },
     "./*.js": {
       "import": {
-        "daydream-sdk/source": "./src/*.ts",
+        "@daydreamlive/sdk/source": "./src/*.ts",
         "types": "./dist/esm/*.d.ts",
         "default": "./dist/esm/*.js"
       },
@@ -106,7 +106,7 @@
     },
     "./*": {
       "import": {
-        "daydream-sdk/source": "./src/*.ts",
+        "@daydreamlive/sdk/source": "./src/*.ts",
         "types": "./dist/esm/*.d.ts",
         "default": "./dist/esm/*.js"
       },

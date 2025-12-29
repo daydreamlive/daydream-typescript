@@ -5,7 +5,7 @@ Model to use for generation
 ## Example Usage
 
 ```typescript
-import { Sd153ModelId } from "daydream-sdk/models";
+import { Sd153ModelId } from "@daydreamlive/sdk/models";
 
 let value: Sd153ModelId = "prompthero/openjourney-v4";
 ```

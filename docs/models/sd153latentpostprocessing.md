@@ -5,7 +5,7 @@ List of latent postprocessor configurations for latent processing
 ## Example Usage
 
 ```typescript
-import { Sd153LatentPostprocessing } from "daydream-sdk/models";
+import { Sd153LatentPostprocessing } from "@daydreamlive/sdk/models";
 
 let value: Sd153LatentPostprocessing = {
   processors: [],

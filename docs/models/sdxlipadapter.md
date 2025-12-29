@@ -5,7 +5,7 @@ IP adapter — Turns on IP-Adapter style conditioning and is fully hot-swappable
 ## Example Usage
 
 ```typescript
-import { SDXLIpAdapter } from "daydream-sdk/models";
+import { SDXLIpAdapter } from "@daydreamlive/sdk/models";
 
 let value: SDXLIpAdapter = {};
 ```

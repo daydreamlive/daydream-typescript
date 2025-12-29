@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { DeleteStreamRequest } from "daydream-sdk/models/operations";
+import { DeleteStreamRequest } from "@daydreamlive/sdk/models/operations";
 
 let value: DeleteStreamRequest = {
   id: "<id>",

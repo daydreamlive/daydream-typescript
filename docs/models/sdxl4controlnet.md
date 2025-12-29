@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { Sdxl4Controlnet } from "daydream-sdk/models";
+import { Sdxl4Controlnet } from "@daydreamlive/sdk/models";
 
 let value: Sdxl4Controlnet = {
   modelId: "xinsir/controlnet-canny-sdxl-1.0",

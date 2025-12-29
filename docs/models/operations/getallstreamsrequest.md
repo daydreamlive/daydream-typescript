@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { GetAllStreamsRequest } from "daydream-sdk/models/operations";
+import { GetAllStreamsRequest } from "@daydreamlive/sdk/models/operations";
 
 let value: GetAllStreamsRequest = {};
 ```

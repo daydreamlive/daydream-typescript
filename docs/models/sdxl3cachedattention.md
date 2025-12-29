@@ -5,7 +5,7 @@ Cached attention (StreamV2V) configuration. Enable cached attention to reuse key
 ## Example Usage
 
 ```typescript
-import { Sdxl3CachedAttention } from "daydream-sdk/models";
+import { Sdxl3CachedAttention } from "@daydreamlive/sdk/models";
 
 let value: Sdxl3CachedAttention = {
   enabled: false,

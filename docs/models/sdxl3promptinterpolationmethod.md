@@ -5,7 +5,7 @@ Method for interpolating between multiple prompts. Slerp provides smoother trans
 ## Example Usage
 
 ```typescript
-import { Sdxl3PromptInterpolationMethod } from "daydream-sdk/models";
+import { Sdxl3PromptInterpolationMethod } from "@daydreamlive/sdk/models";
 
 let value: Sdxl3PromptInterpolationMethod = "slerp";
 ```

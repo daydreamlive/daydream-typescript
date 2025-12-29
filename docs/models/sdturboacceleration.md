@@ -5,7 +5,7 @@ Acceleration method for inference. Options: "none", "xformers", "tensorrt". Tens
 ## Example Usage
 
 ```typescript
-import { SDTurboAcceleration } from "daydream-sdk/models";
+import { SDTurboAcceleration } from "@daydreamlive/sdk/models";
 
 let value: SDTurboAcceleration = "tensorrt";
 ```

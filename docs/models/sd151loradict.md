@@ -5,7 +5,7 @@ Dictionary mapping LoRA model paths to their weights for fine-tuning the base mo
 ## Example Usage
 
 ```typescript
-import { Sd151LoraDict } from "daydream-sdk/models";
+import { Sd151LoraDict } from "@daydreamlive/sdk/models";
 
 let value: Sd151LoraDict = {};
 ```

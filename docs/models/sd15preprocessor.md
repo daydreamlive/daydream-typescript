@@ -5,7 +5,7 @@ Preprocessor to apply to input frames before feeding to the ControlNet. Must be 
 ## Example Usage
 
 ```typescript
-import { Sd15Preprocessor } from "daydream-sdk/models";
+import { Sd15Preprocessor } from "@daydreamlive/sdk/models";
 
 let value: Sd15Preprocessor = "depth";
 ```

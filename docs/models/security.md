@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { Security } from "daydream-sdk/models";
+import { Security } from "@daydreamlive/sdk/models";
 
 let value: Security = {};
 ```
